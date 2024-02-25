@@ -24,13 +24,6 @@ h1 {
   top: 0;
 }
 
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-
 .birthday-gift {
   position: relative;
 }
@@ -233,6 +226,18 @@ input#click {
   left: 29px;
   top: -5px;
   animation: fire 0.35s ease-in-out infinite, color2 0.2s linear infinite;
+}
+
+.link {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+}
+
+.link a {
+  color: violet;
+  font-weight: bold;
 }
 
 @keyframes fire3 {
