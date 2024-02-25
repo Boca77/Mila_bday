@@ -7,7 +7,7 @@ cx = ctx.canvas.width / 2;
 cy = ctx.canvas.height / 2;
 
 let confetti = [];
-const confettiCount = 4000;
+const confettiCount = 2000;
 const gravity = 0.1;
 const terminalVelocity = 1;
 const drag = 0.075;
